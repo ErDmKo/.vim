@@ -300,7 +300,7 @@
             " ---------
             
                 au BufNewFile,BufRead *.json setf javascript
-                au BufNewFile,BufRead *.py setl colorcolumn=80
+                "au BufNewFile,BufRead *.py setl colorcolumn=80
 
             " }}}
             
