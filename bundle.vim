@@ -69,13 +69,6 @@
 
     let NERDTreeWinSize = 30
 
-    " files/dirs to ignore in NERDTree (mostly the same as my svn ignores)
-    let NERDTreeIgnore=['\~$', '\.AppleDouble$', '\.beam$', 'build$',
-    \'dist$', '\.DS_Store$', '\.egg$', '\.egg-info$', '\.la$',
-    \'\.lo$', '\.\~lock.*#$', '\.mo$', '\.o$', '\.pt.cache$',
-    \'\.pyc$', '\.pyo$', '__pycache__$', '\.Python$', '\..*.rej$',
-    \'\.rej$', '\.ropeproject$', '\.svn$', '\.tags$' ]
-
     nnoremap <silent> <leader>t :NERDTreeToggle<CR>
     nnoremap <silent> <leader>f :NERDTreeFind<CR>
 
