@@ -63,7 +63,7 @@
     set sidescroll=4
     set sidescrolloff=10
     set showcmd                 " Show commands
-    set whichwrap=b,s,<,>,[,],l,h
+    set wrap
     set completeopt=menu,preview,longest
     set infercase
     set nojoinspaces
@@ -90,7 +90,6 @@
     set backspace=indent,eol,start " Allow backspace to remove indents, newlines and old tex"
     set nostartofline           " Emulate typical editor navigation behaviour
     set nopaste                 " Start in normal (non-paste) mode
-    set virtualedit=all         " on virtualedit for all mode
     set nrformats=              " dont use octal and hex in number operations
 
     " Matching characters
@@ -126,7 +125,6 @@
 
     set wildignore+=*.luac                           " Lua byte code
 
-    set wildignore+=migrations                       " Django migrations
     set wildignore+=*.pyc                            " Python byte code
 
     set wildignore+=*.orig                           " Merge resolution files
@@ -345,7 +343,6 @@ command! -bang WQ wq<bang>
 if filereadable($HOME . "/.vim_local")
     source $HOME/.vim_local
 endif
-
 
 " Project settings
 " ================

@@ -65,18 +65,18 @@
 " ==========
 
     " A tree explorer plugin for vim.
-    NeoBundle 'scrooloose/nerdtree'
+    "NeoBundle 'scrooloose/nerdtree'
 
-    let NERDTreeWinSize = 30
+    "let NERDTreeWinSize = 30
 
-    nnoremap <silent> <leader>t :NERDTreeToggle<CR>
-    nnoremap <silent> <leader>f :NERDTreeFind<CR>
+    "nnoremap <silent> <leader>t :NERDTreeToggle<CR>
+    "nnoremap <silent> <leader>f :NERDTreeFind<CR>
 
     " Find files
-    NeoBundle 'kien/ctrlp.vim'
+    "NeoBundle 'kien/ctrlp.vim'
 
-    let g:ctrlp_dont_split = 'NERD_tree_2'
-    let g:ctrlp_map = '<leader>,'
+    "let g:ctrlp_dont_split = 'NERD_tree_2'
+    "let g:ctrlp_map = '<leader>,'
 
     " Vim plugin that displays tags in a window, ordered by class etc.
     NeoBundle "majutsushi/tagbar"
